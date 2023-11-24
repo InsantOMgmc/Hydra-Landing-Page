@@ -1,0 +1,1335 @@
+:root {
+    --white: #FFF;
+    --bg-color: #302C42;
+    --swiper-navigation-size: 30px;
+    --adaptiveTitle1100: calc(26 / 1100 * 100vw);
+    --adaptiveSubtitle1100: calc(18 / 1100 * 100vw);
+
+    --adaptiveTitle850: calc(26 / 850 * 100vw);
+    --adaptiveSubtitle850: calc(16 / 850 * 100vw);
+
+    --adaptiveTitle630: calc(26 / 630 * 100vw);
+    --adaptiveSubtitle630: calc(14 / 630 * 100vw);
+}
+
+body {
+    position: relative;
+    background: var(--bg-color);
+    overflow-x: hidden;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.container {
+    max-width: 1272px;
+    margin: 0 auto;
+}
+
+/* Header start */
+.header {
+    width: 100%;
+    padding-top: 50px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    gap: 15px;
+    flex-basis: 50%;
+    align-items: center;
+}
+
+.header__nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav-list {
+    list-style: none;
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+
+.header__nav-item {
+    color: var(--white, #FFF);
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.header__nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+.nav__btn {
+    padding: 17px 36px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+.contact-us {
+    color: var(--white);
+    border: 2px solid #FFF;
+}
+
+.join-hydra {
+    color: #343045;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+
+/* Header end */
+
+/* Main */
+.main {
+    position: relative;
+    flex-grow: 1;
+}
+
+.main .container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.header-bottom-section {
+    margin-top: 146px;
+}
+
+.header-bottom__innner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.title-blog {
+    flex-basis: 50%;
+}
+
+.title {
+    font-size: 3.19vw;
+    font-weight: 700;
+    color: var(--white, #FFF);
+    max-width: 546px;
+}
+
+.subtitle {
+    max-width: 500px;
+    padding-top: 36px;
+    color: var(--white, #FFF);
+    font-size: 1.3vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title span {
+    font-size: inherit;
+    background: linear-gradient(92deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title-blog__navigate-container {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.gradient-btn {
+    max-width: 245px;
+
+    text-align: center;
+    padding: 16px 30px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    color: #343045;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px 100px 100px 240px;
+    padding: 13px;
+    background: rgba(0, 0, 0, 0.13);
+
+}
+
+.title-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px 100px 100px 240px;
+}
+
+/* Header-bottom section END */
+
+/* Information section */
+.information-section {}
+
+.information__container {
+    width: 100%;
+    display: flex;
+    padding: 25px;
+    border-radius: 90px;
+    background: radial-gradient(circle, rgba(58, 52, 86, 1) 0%, rgba(33, 30, 46, 1) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+}
+
+.information__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 0;
+}
+
+.information__card-gap28 {
+    gap: 28px;
+}
+
+.straight-vector {
+    margin: 0 10px;
+}
+
+.information-card__info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.information-card__title {
+    color: var(--white);
+    font-size: 1.6vw;
+    font-weight: 700;
+}
+
+.information-card__subtitle {
+    color: var(--white);
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+/* Information Section END */
+
+/* About Hydra Section */
+
+
+.section__title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title__title {
+    color: var(--white);
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.section-title__title-fw300 {
+    font-weight: 300;
+}
+
+.section-title__subtitle {
+    color: var(--white);
+    font-size: 1.5vw;
+    margin: 0 auto;
+    font-weight: 400;
+    max-width: 652px;
+    opacity: .85;
+}
+
+.arrow-blog {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* About Hydra Section */
+.about-hydra-section {
+    position: relative;
+    margin-top: 100px;
+}
+
+.about-hydra-section__container {
+    display: flex;
+    align-items: center;
+    gap: 108px;
+}
+
+.about-hydra__img {
+    width: 37vw;
+    border-radius: 15vw 8vw;
+    background: #A3A3A3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    flex-basis: 45%;
+}
+
+.about-hydra-section__title-blog {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.why-build-hydra-section {
+    position: relative;
+}
+
+.hydra-information__container {
+    width: 100%;
+    position: relative;
+    margin-top: 102px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+
+}
+
+.hydra-information__card {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 22px;
+    padding: 23px 25px 40px 35px;
+    border-radius: 40px;
+    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+}
+
+.hydra-information-card__ellipse {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgba(14, 14, 14, 0.32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ellipse-img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.hydra-information-card__title {
+    color: var(--white);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.hydra-information-card__subtitle {
+    max-width: 250px;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.hydra-information-card__btn {
+    margin-top: 20px;
+}
+
+/* END */
+.tech-section__container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech-section__hydra-technologies {
+    width: 100%;
+    padding: 108px 40px 96px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 160px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tech-section__technologies-hardware {
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Tech-section END */
+
+.how-build-with-hydra-section {
+    position: relative;
+}
+
+/* Hydra-Build-Stages */
+.hydra-build-stages-container {
+    margin-top: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hydra-build-stages__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.hydra-build-stages-item__overlay {
+    width: 198px;
+    height: 198px;
+    padding: 20px;
+    background: rgba(13, 13, 13, 0.32);
+    border-radius: 50%;
+}
+
+.hydra-build-stages-item__ellipse {
+    background: linear-gradient(251deg, #C0B7E8 12.87%, #8176AF 89.33%);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hydra-build-stages-item__ellipse p {
+    color: #343045;
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+.hydra-build-stages__title {
+    color: var(--white);
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+/* Join-Hydra-section */
+.join-hydra-section {
+    position: relative;
+}
+
+.join-hydra__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 65px;
+    text-align: center;
+    padding: 90px 0;
+    border-radius: 100px;
+    background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.form__title-blog {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input-data__box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    padding: 0 110px;
+}
+
+.input-data__container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-data__input-item {
+    width: 100%;
+    padding: 28px 40px;
+    border-radius: 40px;
+    border: 3px solid #FFF;
+    background: transparent;
+    color: var(--white);
+}
+
+.input-data__input-item::placeholder {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.input-data__textarea-item {
+    width: 100%;
+    padding: 27px 42px;
+    resize: none;
+    background: transparent;
+    border-radius: 40px;
+    border: 3px solid #FFF;
+    color: var(--white);
+}
+
+.input-data__textarea-item::placeholder {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.delay-2ms {
+    animation-delay: .2s;
+}
+
+.delay-15ms {
+    animation-delay: 1.7s;
+}
+
+/* Join-Hydra-section END*/
+
+/* Footer */
+
+footer {
+    width: 100%;
+    padding-top: 130px;
+    position: relative;
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.footer__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-item__link {
+    color: var(--white);
+    font-size: 1.1vw;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.footer__social-media-blog {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.footer__social-medias {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-list__container {
+    display: flex;
+    gap: 50px;
+}
+
+.open {
+    display: flex !important;
+}
+
+.burger {
+    display: none;
+    position: relative;
+    z-index: 100;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+}
+
+.burger span {
+    height: 2px;
+    width: 80%;
+    transform: scale(1);
+    background: -webkit-linear-gradient(45deg, rgb(192, 183, 232), rgb(129, 118, 175));
+    background: -moz-linear-gradient(45deg, rgb(192, 183, 232), rgb(129, 118, 175));
+    background: linear-gradient(45deg, rgb(192, 183, 232), rgb(129, 118, 175));
+}
+
+.burger::after,
+.burger::before {
+    content: '';
+    position: absolute;
+    height: 2.5px;
+    width: 100%;
+    background: -webkit-linear-gradient(45deg, rgb(192, 183, 232), rgb(129, 118, 175));
+    background: -moz-linear-gradient(45deg, rgb(192, 183, 232), rgb(129, 118, 175));
+    background: linear-gradient(45deg, rgb(192, 183, 232), rgb(129, 118, 175));
+    transition: all .3s ease;
+}
+
+.burger::before {
+    top: 0;
+}
+
+.burger::after {
+    bottom: 0;
+}
+
+.burger.active span {
+    transform: scale(0);
+}
+
+.burger.active::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0, -50%);
+}
+
+.burger.active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0, 50%);
+}
+
+@keyframes burgerAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.author-link {
+    padding: 50px 0;
+    text-align: center;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1.82px;
+}
+
+/* Swiper */
+.swiper {
+    display: none;
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 90px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    border-radius: 90px;
+    background: radial-gradient(circle, rgba(58, 52, 86, 1) 0%, rgba(33, 30, 46, 1) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Vectors */
+.arrow-blog {
+    display: flex;
+    align-items: center;
+}
+
+.vector,
+.vector-2,
+.vector-3,
+.vector-4,
+.vector-5,
+.vector-6,
+.vector-7,
+.vector-8,
+.vector-9,
+.vector-10,
+.vector-11,
+.vector-12,
+.vector-13 {
+    position: absolute;
+    z-index: -1;
+}
+
+.vector {
+    left: 0;
+    top: 280px;
+}
+
+.vector-2 {
+    top: 419px;
+    right: 0;
+}
+
+.vector-3 {
+    top: 0;
+    right: 134px;
+}
+
+.vector-4 {
+    top: 170px;
+    right: 0;
+}
+
+.vector-6 {
+    bottom: 0;
+    left: 0;
+}
+
+.vector-10 {
+    bottom: -300px;
+    left: 0;
+}
+
+.vector-11 {
+    bottom: 0;
+}
+
+.vector-12 {
+    bottom: -150px;
+    left: 0;
+}
+
+.vector-13 {
+    bottom: 160px;
+}
+
+path {
+    animation: anim 2s linear forwards;
+}
+
+@keyframes anim {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@media (min-width: 1600px) {
+    .section-title__title {
+        font-size: 36px;
+    }
+
+    .section-title__subtitle {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 46px;
+    }
+
+    .subtitle {
+        font-size: 16px;
+    }
+
+
+    .about-hydra__img {
+        width: 546px;
+        height: 546px;
+        border-radius: 240px 100px;
+    }
+
+    .hydra-build-stages-item__ellipse p {
+        font-size: 64px;
+    }
+
+    .hydra-build-stages__title {
+        font-size: 20px;
+    }
+
+    .gradient-btn {
+        font-size: 14px;
+    }
+
+    .footer-item__link {
+        font-size: 16px;
+    }
+
+    .hydra-information-card__subtitle {
+        font-size: 12px;
+    }
+
+    .hydra-information-card__title {
+        font-size: 20px;
+    }
+
+    .information-card__title {
+        font-size: 24px;
+    }
+
+    .information-card__subtitle {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .container {
+        max-width: 1000px;
+    }
+
+    .section-title__subtitle {
+        max-width: 60%;
+        font-size: calc(16 / 1000 * 100vw);
+    }
+
+    .about-hydra-section__title-blog .section-title__subtitle {
+        max-width: 100%;
+    }
+
+    .arrow-blog {
+        gap: 10px;
+    }
+
+    .logo {
+        flex-basis: 40%;
+    }
+
+    .header__nav-list {
+        gap: 25px;
+    }
+
+    .header__nav-buttons {
+        gap: 20px;
+    }
+
+    .hydra-information__container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 50px;
+    }
+
+    .information__card-gap28 {
+        gap: 10px;
+    }
+
+    .hydra-build-stages-item__overlay {
+        width: 150px;
+        height: 150px;
+        padding: 15px;
+    }
+
+    .title-img {
+        width: 100%;
+    }
+
+    .header__nav-list {
+        margin-bottom: 25px;
+    }
+
+    .title-blog {
+        flex-basis: 70%;
+    }
+
+    .title {
+        max-width: 440px;
+    }
+
+    .subtitle {
+        max-width: 440px;
+    }
+
+    .hydra-information__card {
+        flex-basis: 48%;
+    }
+
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .title {
+        font-size: calc(36 / 1100 * 100vw);
+    }
+
+    .subtitle {
+        font-size: var(--adaptiveSubtitle1100);
+    }
+
+    .logo {
+        flex-basis: 100%;
+    }
+
+    .container {
+        max-width: 750px;
+    }
+
+    .technologies-hardware__item {
+        width: 20%;
+    }
+
+    .footer__container {
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .title-img {
+        width: 100%;
+    }
+
+    .header__nav {
+        flex-wrap: wrap;
+    }
+
+    .arrow {
+        width: calc(120 / 1100 * 100vw);
+    }
+
+    .footer-logo {
+        width: 150px;
+    }
+
+    .footer__social-medias {
+        gap: 10px;
+    }
+
+    .hydra-build-stages-item__overlay {
+        width: 120px;
+        height: 120px;
+        padding: 12px;
+    }
+
+    .section-title__subtitle {
+        max-width: 60%;
+        font-size: var(--adaptiveSubtitle1100);
+    }
+
+    .section-title__title {
+        font-size: var(--adaptiveTitle1100);
+    }
+
+    .hydra-information-card__title {
+        font-size: var(--adaptiveTitle1100);
+    }
+
+    .hydra-build-stages__title {
+        font-size: var(--adaptiveTitle1100);
+    }
+
+    .subtitle {
+        font-size: var(--adaptiveSubtitle850);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    :root {
+        --animate-duration: 0s;
+        --animate-delay: 0s;
+        --animate-repeat: 0;
+    }
+
+    .delay-15ms,
+    .delay-2ms {
+        animation-delay: 0s;
+    }
+
+    .container {
+        width: 600px;
+    }
+
+    .hydra-build-stages-item__overlay {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .logo {
+        flex-basis: 0;
+    }
+
+    .header__inner {
+        justify-content: space-between;
+    }
+
+    .header__nav {
+        display: none;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        z-index: 60;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow-y: auto;
+        flex-wrap: nowrap;
+        padding: 20px 0;
+        background-color: #211E2E;
+        animation: burgerAnimation .4s;
+    }
+
+    .header__nav-list {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .input-data__container {
+        flex-direction: column;
+    }
+
+    .join-hydra__form {
+        padding-bottom: 65px;
+    }
+
+    .join-hydra__form .gradient-btn {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .hydra-information__card {
+        gap: 10px;
+        padding-bottom: 20px;
+        flex: 1 1 25%;
+    }
+
+    .footer__social-media-blog {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+    }
+
+    .title {
+        font-size: calc(33 / 850 * 100vw);
+    }
+
+    .section-title__subtitle {
+        max-width: 60%;
+        font-size: var(--adaptiveSubtitle850);
+    }
+
+    .section-title__title {
+        font-size: var(--adaptiveTitle850);
+    }
+
+    .hydra-information-card__title {
+        font-size: var(--adaptiveTitle850);
+    }
+
+    .hydra-build-stages__title {
+        font-size: var(--adaptiveTitle850);
+    }
+
+    .footer-item__link {
+        font-size: var(--adaptiveSubtitle1100);
+    }
+
+    .block {
+        width: calc(420 / 850 * 100vw);
+    }
+
+    .about-hydra-section__container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .about-hydra-section__title-blog {
+        align-items: center;
+    }
+
+    .vector-3 {
+        right: 0;
+    }
+
+    .introduction-to-hydra-section {
+        margin-top: 50px;
+    }
+
+    .vector,
+    .vector-2,
+    .vector-3,
+    .vector-4 {
+        display: none;
+    }
+}
+
+@media (max-width: 630px) {
+    .container {
+        max-width: 450px;
+    }
+
+    .title {
+        font-size: var(--adaptiveTitle630);
+    }
+
+    .subtitle {
+        font-size: var(--adaptiveSubtitle630);
+        padding-top: 16px;
+    }
+
+    .section-title__subtitle {
+        font-size: var(--adaptiveSubtitle630);
+    }
+
+    .section-title__title {
+        font-size: var(--adaptiveTitle630);
+    }
+
+    .t-block {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title-blog__navigate-container {
+        padding: 0;
+    }
+
+    .block {
+        width: calc(360 / 630 * 100vw);
+    }
+
+    .section__title-container {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .gradient-btn {
+        font-size: calc(14 / 630 * 100vw);
+        padding: 10px 10px;
+    }
+
+    .hydra-build-stages-item__overlay {
+        width: 70px;
+        height: 70px;
+        padding: 8px;
+    }
+
+    .hydra-build-stages__title {
+        font-size: var(--adaptiveTitle1100);
+    }
+
+    .information__container {
+        display: none;
+    }
+
+    .swiper {
+        display: block;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .hydra-information__container {
+        margin-top: 46px;
+    }
+
+    .information-section {
+        margin-top: 30px;
+    }
+
+    .about-hydra-section {
+        margin-top: 60px;
+    }
+
+    .main .container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .tech-section__hydra-technologies {
+        padding: 50px 10px;
+    }
+
+    .hydra-build-stages-container {
+        margin-top: 40px;
+    }
+
+    .input-data__box {
+        padding: 0 40px;
+    }
+
+    .information-card__title {
+        font-size: var(--adaptiveTitle630);
+    }
+
+    .information-card__subtitle {
+        font-size: var(--adaptiveSubtitle630);
+    }
+}
+
+@media (max-width: 470px) {
+
+    .container {
+        max-width: 350px;
+    }
+
+    .footer__social-medias {
+        display: none;
+    }
+
+    .header-bottom__innner {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        row-gap: 30px;
+    }
+
+    .title-img {
+        width: 100%;
+    }
+
+    .block {
+        width: 100%;
+    }
+
+    .title {
+        font-size: calc(36 / 390 * 100vw);
+    }
+
+    .subtitle {
+        display: none;
+    }
+
+    .build-your-world-arrow {
+        display: none;
+    }
+
+    .title-blog {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .title-blog__navigate-container {
+        justify-content: center;
+    }
+
+    .section-title__subtitle {
+        display: none;
+    }
+
+    .about-hydra-section__title-blog .section-title__subtitle {
+        display: block;
+        font-size: 12px;
+    }
+
+    .about-hydra-section__container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .about-hydra__img {
+        width: 90%;
+        border-radius: 140px 60px;
+    }
+
+    .about-hydra {
+        display: none;
+    }
+
+    .section__title-container {
+        justify-content: center;
+    }
+
+    .gradient-btn {
+        max-width: 80%;
+        font-size: 14px;
+    }
+
+    .information-card__title {
+        font-size: 14px;
+    }
+
+    .information-card__subtitle {
+        font-size: 10px;
+    }
+
+    .information__card {
+        padding: 0 30px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .about-hydra-section__title-blog {
+        align-items: center;
+    }
+
+    .why-build-hydra-section {
+        text-align: center;
+    }
+
+    .tech-section__hydra-technologies {
+        padding: 40px 30px;
+        gap: 10px;
+    }
+
+    .tech-section__hydra-technologies .section-title__title {
+        font-size: 14px;
+    }
+
+    .footer-item__link {
+        font-size: var(--adaptiveSubtitle800);
+    }
+
+    .footer-vector {
+        display: none;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .footer {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 350px) {
+    .container {
+        max-width: 290px;
+    }
+}

@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="736" height="483" viewBox="0 0 736 423" fill="none"
+            class="vector-2">
+            <path d="M738.5 4.5C491.667 -7.66666 -0.900015 58.9 3.49999 422.5" stroke="url(#paint0_linear_2_33)"
+                stroke-width="6" stroke-dasharray="990" stroke-dashoffset="990" />
+            <defs>
+                <linearGradient id="paint0_linear_2_33" x1="700.5" y1="-3.99998" x2="14.5" y2="361"
+                    gradientUnits="userSpaceOnUse">
+                    <stop offset="0.0104167" stop-color="#343045" />
+                    <stop offset="0.213542" stop-color="#C0B7E8" />
+                    <stop offset="0.9" stop-color="#8176AF" />
+                    <stop offset="1.1" stop-color="#343045" />
+                </linearGradient>
+            </defs>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="383" height="900" viewBox="0 0 383 846" fill="none"
+            class="vector-3">
+            <path
+                d="M3.19293 0C-0.0879101 140.127 37.2087 433.314 212.642 485.053C388.075 536.792 391.776 746.576 371.697 845"
+                stroke="url(#paint0_linear_1_24)" stroke-width="6" stroke-dasharray="990" stroke-dashoffset="990" />
+            <defs>
+                <linearGradient id="paint0_linear_1_24" x1="16.5" y1="39.5" x2="363" y2="814"
+                    gradientUnits="userSpaceOnUse">
+                    <stop offset="0.0104167" stop-color="#343045" />
+                    <stop offset="0.229167" stop-color="#C0B7E8" />
+                    <stop offset="0.776042" stop-color="#8176AF" />
+                    <stop offset="1" stop-color="#343045" />
+                </linearGradient>
+            </defs>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="416" height="720" viewBox="0 0 416 675" fill="none"
+            class="vector-4">
+            <path d="M415 3C325.774 17.8434 155.913 102.224 190.271 320.998C224.63 539.772 78.4065 646.155 1 672"
+                stroke="url(#paint0_linear_1_23)" stroke-width="6" stroke-dasharray="990" stroke-dashoffset="990" />
+            <defs>
+                <linearGradient id="paint0_linear_1_23" x1="365.5" y1="28" x2="110" y2="594"
+                    gradientUnits="userSpaceOnUse">
+                    <stop offset="0.1" stop-color="#343045" />
+                    <stop offset="0.276042" stop-color="#8176AF" />
+                    <stop offset="0.739583" stop-color="#C0B7E8" />
+                    <stop offset="1" stop-color="#343045" />
+                </linearGradient>
+            </defs>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="243" height="600" viewBox="0 0 243 565" fill="none"
+            class="vector">
+            <path d="M1.5 3C104.5 41.1667 293.4 206.8 225 564" stroke="url(#paint0_linear_2_34)" stroke-opacity="0.06"
+                stroke-width="6" stroke-dasharray="990" stroke-dashoffset="990" />
+            <defs>
+                <linearGradient id="paint0_linear_2_34" x1="-23.5" y1="-37.5" x2="333" y2="602.5"
+                    gradientUnits="userSpaceOnUse">
+                    <stop offset="0.112121" stop-color="#343045" />
+                    <stop offset="0.151042" stop-color="#C0B7E8" />
+                    <stop offset="0.760417" stop-color="#8176AF" />
+                    <stop offset="0.973958" stop-color="#343045" />
+                </linearGradient>
+            </defs>
+        </svg>
+        <header class="header animate__animated animate__fadeInDown">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="#" class="logo">
+                        <picture>
+                            <source media="(max-width: 790px)" srcset="img/header-images/Logo-mobile.svg">
+                            <img src="img/header-images/Logo.svg" alt="logo" class="logo__img">
+                        </picture>
+
+                        <picture>
+                            <source media="(max-width: 790px)" srcset="img/header-images/logo-name-mobile.svg">
+                            <img src="img/header-images/logo-name.svg" alt="logo-name">
+                        </picture>
+                    </a>
+                    <nav class="header__nav">
+                        <ul class="header__nav-list">
+                            <li>
+                                <a href="#" class="header__nav-item">
+                                    ABOUT
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__nav-item">
+                                    SERVICES
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__nav-item">
+                                    TECHNOLOGIES
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__nav-item">
+                                    HOW TO
+                                </a>
+                            </li>
+
+                        </ul>
+                        <div class="header__nav-buttons">
+                            <a href="#" class="nav__btn contact-us">
+                                CONTACT US
+                            </a>
+                            <a href="#" class="nav__btn join-hydra">
+                                JOIN HYDRA
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="burger">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <main class="main">
+            <div class="container">
+
+
+                <section class="header-bottom-section">
+
+                    <div class="header-bottom__innner">
+                        <div class="title-blog animate__animated animate__fadeInLeft">
+                            <h1 class="title"><span>Dive</span> Into The Depths Of <span>Virtual Reality</span></h1>
+                            <p class="subtitle">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore
+                                nisl tincidunt eget. Lectus mauris eros in vitae.
+                            </p>
+                            <div class="title-blog__navigate-container">
+                                <a href="#" class="gradient-btn">BUILD YOUR WORLD</a>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"
+                                    fill="none" class="build-your-world-arrow">
+                                    <path
+                                        d="M70.8333 50L29.1667 50M70.8333 50L54.1667 66.6667M70.8333 50L54.1667 33.3333"
+                                        stroke="#C0B7E8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-dashoffset="450" stroke-dasharray="450" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="block animate__animated animate__fadeInRight">
+                            <img src="img/header-images/title-img.webp" alt="title-img" class="title-img">
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="information-section">
+
+                    <div class="information__container wow animate__animated animate__fadeInUp">
+                        <div class="information__card">
+                            <img src="img/icons/Location-Icon.svg" alt="Location-Icon" class="information-card__icon">
+
+                            <div class="information-card__info">
+                                <h4 class="information-card__title">Pay Us a Visit</h4>
+                                <p class="information-card__subtitle">Union St, Seattle, WA 98101, United States</p>
+                            </div>
+                        </div>
+                        <img src="img/vectors/straightline.svg" alt="straight-vector" class="straight-vector">
+
+
+                        <div class="information__card information__card-gap28">
+                            <img src="img/icons/phone-call.svg" alt="phone-call" class="information-card__icon">
+
+                            <div class="information-card__info">
+                                <h4 class="information-card__title">Give Us a Call</h4>
+                                <p class="information-card__subtitle">(110) 1111-1010</p>
+                            </div>
+
+                        </div>
+
+                        <img src="img/vectors/straightline.svg" alt="straight-vector" class="straight-vector">
+
+                        <div class="information__card information__card-gap28">
+                            <img src="img/icons/mail.svg" alt="mail-icon" class="information-card__icon">
+
+                            <div class="information-card__info">
+                                <h4 class="information-card__title">Send Us a Message</h4>
+                                <p class="information-card__subtitle">Contact@HydraVTech.com</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="information__card">
+                                    <img src="img/icons/Location-Icon.svg" alt="Location-Icon"
+                                        class="information-card__icon">
+
+                                    <div class="information-card__info">
+                                        <h4 class="information-card__title">Pay Us a Visit</h4>
+                                        <p class="information-card__subtitle">Union St, Seattle, WA 98101, United
+                                            States
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="information__card information__card-gap28">
+                                    <img src="img/icons/phone-call.svg" alt="phone-call" class="information-card__icon">
+
+                                    <div class="information-card__info">
+                                        <h4 class="information-card__title">Give Us a Call</h4>
+                                        <p class="information-card__subtitle">(110) 1111-1010</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="information__card information__card-gap28">
+                                    <img src="img/icons/mail.svg" alt="mail-icon" class="information-card__icon">
+
+                                    <div class="information-card__info">
+                                        <h4 class="information-card__title">Send Us a Message</h4>
+                                        <p class="information-card__subtitle">Contact@HydraVTech.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+
+                    </div>
+
+                </section>
+
+                <section class="introduction-to-hydra-section">
+                    <div class="section__title-container">
+                        <div class="section-title__blog wow animate__animated animate__fadeInLeft">
+                            <div class="t-block">
+
+                                <h2 class="section-title__title">
+                                    INTRODUCTION
+                                </h2>
+                                <div class="arrow-blog">
+                                    <h2 class="section-title__title section-title__title-fw300">TO HYDRA VR</h2>
+                                    <img src="img/vectors/introduction-hydra-arrow.svg" alt="arrow" class="arrow">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="section-title__subtitle wow animate__animated animate__fadeInRight">Vitae sapien
+                            pellentesque habitant morbi tristique senectus
+                            et netus et. Feugiat
+                            nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo
+                            quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare
+                            lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
+                        </p>
+                    </div>
+
+                </section>
+
+                <section class="about-hydra-section">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="282" viewBox="0 0 1440 262" fill="none"
+                        class="vector-5">
+                        <path
+                            d="M1442.5 215C1387.5 104.333 1242.8 -83.7999 1104 49.0001C930.5 215 761.5 331.5 554.5 203.5C347.5 75.5001 34.5 175.5 -6.5 260"
+                            stroke="url(#paint0_linear_3_53)" stroke-opacity="0.5" stroke-width="6"
+                            stroke-dasharray="2000" stroke-dashoffset="2000" />
+                        <defs>
+                            <linearGradient id="paint0_linear_3_53" x1="-7" y1="105.5" x2="1443" y2="89.0001"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="0.1231" stop-color="#211E2E" />
+                                <stop offset="0.3125" stop-color="#C0B7E8" />
+                                <stop offset="0.765625" stop-color="#8176AF" />
+                                <stop offset="0.994792" stop-color="#211E2E" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="209" viewBox="0 0 1440 219" fill="none"
+                        class="vector-6">
+                        <path
+                            d="M-4.5 74.5C153.667 21.1667 504.6 -53.5 643 74.5C816 234.5 1071.5 258.5 1186.5 146C1278.5 56 1394.17 70.8333 1440.5 89.5"
+                            stroke="url(#paint0_linear_3_54)" stroke-opacity=".5" stroke-width="6"
+                            stroke-dasharray="2000" stroke-dashoffset="2000" />
+                        <defs>
+                            <linearGradient id="paint0_linear_3_54" x1="-5" y1="63" x2="1462" y2="62.9999"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="0.123121" stop-color="#343045" />
+                                <stop offset="0.224242" stop-color="#C0B7E8" />
+                                <stop offset="0.786458" stop-color="#8176AF" />
+                                <stop offset="0.96875" stop-color="#343045" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+
+
+                    <div class="about-hydra-section__container">
+                        <img src="img/about-hydra/about-hydra-img.webp" alt="about-hydra-img"
+                            class="about-hydra__img animate__animated animate__fadeInLeft wow">
+                        <div class="about-hydra-section__title-blog wow animate__animated animate__fadeInRight">
+                            <div class="about-hydra">
+                                <h2 class="section-title__title">ABOUT</h2>
+                                <h2 class="section-title__title section-title__title-fw300">HYDRA VR</h2>
+                            </div>
+                            <p class="section-title__subtitle ">Eget mi proin sed libero enim sed faucibus turpis.
+                                Nisl
+                                rhoncus mattis rhoncus
+                                urna neque viverra justo. Vivamus at augue eget arcu dictum. Ultrices gravida
+                                dictum fusce ut placerat orci. Aenean et tortor at risus viverra adipiscing at in.
+                                Mattis aliquam faucibus purus in massa. Est placerat in egestas erat imperdiet
+                                sed. Consequat semper viverra nam libero justo laoreet sit amet. Aliquam
+                                etiam erat velit scelerisque in dictum non consectetur a. Laoreet sit amet
+                                cursus sit amet. Vel eros donec ac odio tempor orci dapibus. Sem nulla pha
+                                retra diam sit amet nisl suscipit adipiscing bibendum. Leo a diam sollicitudi
+                                n tempor.</p>
+
+                            <a href="#" class="gradient-btn">LET’S GET IN TOUCH</a>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="why-build-hydra-section">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="820" viewBox="0 0 1440 820" fill="none"
+                        class="vector-10">
+                        <path
+                            d="M-3 231.214C96.569 254.827 300.21 358.641 318.223 584.988C336.235 811.336 680.641 830.311 850.592 811.505C959 791.003 1139.69 689.084 995.192 445.43C850.692 201.775 1230.86 48.9539 1439 3"
+                            stroke="url(#paint0_linear_11_14)" stroke-opacity="0.13" stroke-width="6" />
+                        <defs>
+                            <linearGradient id="paint0_linear_11_14" x1="718" y1="3" x2="718" y2="817"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset="0.0260417" stop-color="#C0B7E8" />
+                                <stop offset="0.265625" stop-color="#C0B7E8" />
+                                <stop offset="0.71875" stop-color="#8176AF" />
+                                <stop offset="1" stop-color="#343045" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+
+                    <div class="container">
+                        <div class="section__title-container">
+                            <div class="section-title__blog wow animate__animated animate__fadeInLeft">
+                                <h2 class="section-title__title">
+                                    WHY BUILD
+                                </h2>
+                                <div class="arrow-blog">
+                                    <h2 class="section-title__title section-title__title-fw300">WITH HYDRA?</h2>
+                                    <img src="img/vectors/introduction-hydra-arrow.svg" alt="arrow" class="arrow">
+                                </div>
+                            </div>
+                            <p class="section-title__subtitle wow animate__animated animate__fadeInRight">Vitae sapien
+                                pellentesque habitant morbi tristique senectus
+                                et netus et. Feugiat
+                                nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo
+                                quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare
+                                lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
+                            </p>
+                        </div>
+
+                        <div class="hydra-information__container">
+
+                            <div class="hydra-information__card wow animate__animated animate__fadeInLeft">
+                                <div class="hydra-information-card__ellipse">
+                                    <img src="img/why-build-with-hydra-section-images/why-build-hydra-1.webp"
+                                        alt="vector-line" class="ellipse-img">
+                                </div>
+                                <h3 class="hydra-information-card__title">
+                                    SIMULATION
+                                </h3>
+                                <img src="img/why-build-with-hydra-section-images/Vector-10.svg" alt="vector-line">
+                                <p class="hydra-information-card__subtitle">Vitae sapien pellentesque habitant morbi
+                                    nunc. Viverra aliquet porttitor rhoncus
+                                    libero justo laoreet sit amet vitae.</p>
+                                <a href="#" class="gradient-btn hydra-information-card__btn">TRY IT NOW</a>
+                            </div>
+
+                            <div class="hydra-information__card wow animate__animated animate__fadeInUp">
+                                <div class="hydra-information-card__ellipse">
+                                    <img src="img/why-build-with-hydra-section-images/why-build-hydra-2.webp"
+                                        alt="vector-line" class="ellipse-img">
+                                </div>
+                                <h3 class="hydra-information-card__title">
+                                    EDUCATION
+                                </h3>
+                                <img src="img/why-build-with-hydra-section-images/Vector-10.svg" alt="vector-line">
+                                <p class="hydra-information-card__subtitle">Vitae sapien pellentesque habitant morbi
+                                    nunc. Viverra aliquet porttitor rhoncus
+                                    libero justo laoreet sit amet vitae.</p>
+                                <a href="#" class="gradient-btn hydra-information-card__btn">TRY IT NOW</a>
+                            </div>
+
+                            <div class="hydra-information__card wow animate__animated animate__fadeInUp">
+                                <div class="hydra-information-card__ellipse">
+                                    <img src="img/why-build-with-hydra-section-images/why-build-hydra-3.webp"
+                                        alt="vector-line" class="ellipse-img">
+                                </div>
+                                <h3 class="hydra-information-card__title">
+                                    SELF-CARE
+                                </h3>
+                                <img src="img/why-build-with-hydra-section-images/Vector-10.svg" alt="vector-line">
+                                <p class="hydra-information-card__subtitle">Vitae sapien pellentesque habitant morbi
+                                    nunc. Viverra aliquet porttitor rhoncus
+                                    libero justo laoreet sit amet vitae.</p>
+                                <a href="#" class="gradient-btn hydra-information-card__btn">TRY IT NOW</a>
+                            </div>
+
+                            <div class="hydra-information__card wow animate__animated animate__fadeInRight">
+                                <div class="hydra-information-card__ellipse">
+                                    <img src="img/why-build-with-hydra-section-images/why-build-hydra-4.webp"
+                                        alt="vector-line" class="ellipse-img">
+                                </div>
+                                <h3 class="hydra-information-card__title">
+                                    OUTDOOR
+                                </h3>
+                                <img src="img/why-build-with-hydra-section-images/Vector-10.svg" alt="vector-line">
+                                <p class="hydra-information-card__subtitle">Vitae sapien pellentesque habitant morbi
+                                    nunc. Viverra aliquet porttitor rhoncus
+                                    libero justo laoreet sit amet vitae.</p>
+                                <a href="#" class="gradient-btn hydra-information-card__btn">TRY IT NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="tech-section">
+                    <div class="tech-section__container">
+                        <div class="tech-section__hydra-technologies wow animate__animated animate__fadeInUp"
+                            style="background-image: url(img/tech-section-images/tech-section-1.webp);">
+                            <h2 class="section-title__title">TECHNOLOGIES & HARDWARE</h2>
+                            <h2 class="section-title__title section-title__title-fw300">USED BY HYDRA VR.</h2>
+                        </div>
+                        <div class="tech-section__technologies-hardware">
+                            <img src="img/tech-section-images/unreal-engine.png" alt="unreal-engine"
+                                class="technologies-hardware__item wow animate__animated animate__fadeInLeft">
+                            <img src="img/tech-section-images/unity.png" alt="unity"
+                                class="technologies-hardware__item wow animate__animated animate__fadeInLeft">
+                            <img src="img/tech-section-images/oculus.png" alt="oculus"
+                                class="technologies-hardware__item wow animate__animated animate__fadeInRight">
+                            <img src="img/tech-section-images/vive.png" alt="vive"
+                                class="technologies-hardware__item wow animate__animated animate__fadeInRight">
+                        </div>
+                    </div>
+                </section>
+
+                <section class="how-build-with-hydra-section">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="169" viewBox=" 0 0 1440 169"
+                        fill="none" class="vector-11">
+                        <path
+                            d="M-9 21.7335C6.47753 71.4205 88.0505 181.243 245.37 106.768C350.5 57 405.361 2.72575 539.107 91.2619C672.853 179.798 776.317 173.796 841.423 82.2582C906.53 -9.27916 1076.11 -33.7892 1139.7 74.7552C1203.29 183.3 1417.79 196.305 1440 106.768"
+                            stroke="url(#paint0_linear_11_136)" stroke-width="6" />
+                        <defs>
+                            <linearGradient id="paint0_linear_11_136" x1="0.49999" y1="84.9999" x2="1440" y2="84.9998"
+                                gradientUnits="userSpaceOnUse">
+                                <stop offset='0.112313' stop-color="#343045" />
+                                <stop offset="0.302083" stop-color="#C0B7E8" />
+                                <stop offset="0.739583" stop-color="#8176AF" />
+                                <stop offset="1" stop-color="#343045" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+
+                    <div class="section__title-container">
+                        <div class="section-title__blog wow animate__animated animate__fadeInLeft">
+                            <h2 class="section-title__title">
+                                HOW WE BUILD
+                            </h2>
+                            <div class="arrow-blog">
+                                <h2 class="section-title__title section-title__title-fw300">WITH HYDRA VR?</h2>
+                                <img src="img/vectors/introduction-hydra-arrow.svg" alt="arrow" class="arrow">
+                            </div>
+                        </div>
+                        <p class="section-title__subtitle wow animate__animated animate__fadeInRight">Vitae sapien
+                            pellentesque habitant morbi tristique senectus
+                            et netus et. Feugiat
+                            nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo
+                            quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare
+                            lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.
+                        </p>
+                    </div>
+
+
+                    <div class="hydra-build-stages-container">
+                        <div class="hydra-build-stages__item wow animate__animated animate__fadeInLeft">
+                            <div class="hydra-build-stages-item__overlay">
+                                <div class="hydra-build-stages-item__ellipse">
+                                    <p>01</p>
+                                </div>
+                            </div>
+                            <h4 class="hydra-build-stages__title">3D Conception & Design</h4>
+                        </div>
+
+                        <div class="hydra-build-stages__item wow animate__animated animate__fadeInLeftBig delay-2ms">
+                            <div class="hydra-build-stages-item__overlay">
+                                <div class="hydra-build-stages-item__ellipse">
+                                    <p>02</p>
+                                </div>
+                            </div>
+                            <h4 class="hydra-build-stages__title">Interaction Design</h4>
+                        </div>
+
+                        <div
+                            class="hydra-build-stages__item wow animate__animated animate__fadeInLeftBig animate__delay-1s">
+                            <div class="hydra-build-stages-item__overlay">
+                                <div class="hydra-build-stages-item__ellipse">
+                                    <p>03</p>
+                                </div>
+                            </div>
+                            <h4 class="hydra-build-stages__title">VR World User Testing</h4>
+                        </div>
+
+                        <div class="hydra-build-stages__item wow animate__animated animate__fadeInLeftBig delay-15ms">
+                            <div class="hydra-build-stages-item__overlay">
+                                <div class="hydra-build-stages-item__ellipse">
+                                    <p>04</p>
+                                </div>
+                            </div>
+                            <h4 class="hydra-build-stages__title">Hydra VR Deploy</h4>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="join-hydra-section">
+
+                    <form class="join-hydra__form">
+
+                        <div class="form__title-blog">
+                            <h2 class="section-title__title">
+                                JOIN HYDRA
+                            </h2>
+                            <img src="img/vectors/line.svg" alt="line" class="line">
+                            <h2 class="section-title__title section-title__title-fw300">
+                                Let’s Build Your VR Experience
+                            </h2>
+                        </div>
+
+                        <div class="input-data__box">
+                            <div class="input-data__container">
+                                <input type="text" class="input-data__input-item" placeholder="First Name"
+                                    name="firstName">
+                                <input type="text" class="input-data__input-item" placeholder="Last Name"
+                                    name="lastName">
+                            </div>
+
+                            <div class="input-data__container">
+                                <input type="text" class="input-data__input-item" placeholder="Email" name="email">
+                                <input type="text" class="input-data__input-item" placeholder="Phone Number"
+                                    name="phoneNumber">
+                            </div>
+
+                            <div class="input-data__container">
+                                <input type="text" class="input-data__input-item" placeholder="Subject" name="subject">
+                            </div>
+
+                            <div class="input-data__container">
+                                <textarea name="tellSomething" id="tellSomething" cols="120" rows="10"
+                                    placeholder="Tell Us Something..." class="input-data__textarea-item"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="gradient-btn">SEND TO HYDRA</button>
+                    </form>
+
+
+                </section>
+                <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1439 368" fill="none"
+                    class="vector-12">
+                    <path d="M3.5 366C45.3333 297.5 213.9 191.2 553.5 314C893.1 436.8 1285 157.833 1438.5 3"
+                        stroke="url(#paint0_linear_13_66)" stroke-opacity="0.13" stroke-width="6" />
+                    <defs>
+                        <linearGradient id="paint0_linear_13_66" x1="1438.5" y1="3.86474" x2="3.5" y2="3.86467"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0" stop-color="#343045" />
+                            <stop offset="0.348958" stop-color="#C0B7E8" />
+                            <stop offset="0.6875" stop-color="#8176AF" />
+                            <stop offset="1" stop-color="#343045" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+        </main>
+
+
+        <footer class="footer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 270" fill="none" class="vector-13">
+                <path
+                    d="M1439.5 3C1315.17 14.3333 1084.71 109.757 957 215C795 348.5 543.167 194 391 97C283.5 30 55.3 -36.3 2.5 234.5"
+                    stroke="url(#paint0_linear_13_65)" stroke-opacity="0.13" stroke-width="6" />
+                <defs>
+                    <linearGradient id="paint0_linear_13_65" x1="1439.5" y1="3.63123" x2="2.5" y2="3.63112"
+                        gradientUnits="userSpaceOnUse">
+                        <stop offset="0.148958" stop-color="#343045" />
+                        <stop offset="0.348958" stop-color="#C0B7E8" />
+                        <stop offset="0.6875" stop-color="#8176AF" />
+                        <stop offset="1" stop-color="#343045" />
+                    </linearGradient>
+                </defs>
+            </svg>
+
+            <div class="container">
+                <div class="footer__container">
+                    <a href="#">
+                        <img src="img/footer-images/Logo.svg" alt="Logo" class="footer-logo">
+                    </a>
+
+                    <img src="img/footer-images/Vector20.svg" alt="Vector" class="footer-vector">
+
+                    <div class="footer-list__container">
+                        <ul class="footer__list">
+                            <li class="footer-list__item">
+                                <a href="#" class="footer-item__link">
+                                    ABOUT
+                                </a>
+                            </li>
+                            <li class="footer-list__item">
+                                <a href="#" class="footer-item__link">
+                                    SERVICES
+                                </a>
+                            </li>
+                            <li class="footer-list__item">
+                                <a href="#" class="footer-item__link">
+                                    TECHNOLOGIES
+                                </a>
+                            </li>
+                            <li class="footer-list__item">
+                                <a href="#" class="footer-item__link">
+                                    HOW TO
+                                </a>
+                            </li>
+                            <li class="footer-list__item">
+                                <a href="#" class="footer-item__link">
+                                    JOIN HYDRA
+                                </a>
+                            </li>
+                        </ul>
+
+                        <img src="img/footer-images/Vector20.svg" alt="Vector" class="footer-vector">
+
+                        <ul class="footer__list">
+                            <li class="footer-list__item">
+                                <a href="#" class="footer-item__link">
+                                    F.A.Q
+                                </a>
+                            </li>
+                            <li class="footer-list__item">
+                                <a href="#" class="footer-item__link">
+                                    SITEMAP
+                                </a>
+                            </li>
+                            <li class="footer-list__item">
+                                <a href="#" class="footer-item__link">
+                                    CONDITIONS
+                                </a>
+                            </li>
+                            <li class="footer-list__item">
+                                <a href="#" class="footer-item__link">
+                                    LICENSES
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <img src="img/footer-images/Vector20.svg" alt="Vector" class="footer-vector">
+
+                    <div class="footer__social-media-blog">
+                        <a href="#" class="footer-item__link">
+                            SOCIALIZE WITH HYDRA
+                        </a>
+                        <div class="footer__social-medias">
+                            <a href="#" class="social-media-icon">
+                                <img src="img/footer-images/facebook.svg" alt="facebook">
+                            </a>
+                            <a href="#" class="social-media-icon">
+                                <img src="img/footer-images/twitter.svg" alt="twitter">
+                            </a>
+                            <a href="#" class="social-media-icon">
+                                <img src="img/footer-images/linkedin.svg" alt="linkedin">
+                            </a>
+                            <a href="#" class="social-media-icon">
+                                <img src="img/footer-images/youtube.svg" alt="youtube">
+                            </a>
+                            <a href="#" class="social-media-icon">
+                                <img src="img/footer-images/instagram.svg" alt="instagram">
+                            </a>
+                            <a href="#" class="social-media-icon">
+                                <img src="img/footer-images/pinterest.svg" alt="pinterest">
+                            </a>
+                        </div>
+                        <a href="#" class="gradient-btn">BUILD YOUR WORLD</a>
+                    </div>
+                </div>
+                <img src="img/footer-images/Vector17.svg" alt="vector" width="100%" class="line">
+                <p class="author-link">2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/wow.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
