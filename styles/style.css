@@ -1090,7 +1090,9 @@ path {
     .container {
         max-width: 450px;
     }
-
+    .header-bottom-section {
+        margin-top: 46px;
+    }
     .title {
         font-size: var(--adaptiveTitle630);
     }
